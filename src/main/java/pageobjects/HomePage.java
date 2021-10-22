@@ -109,7 +109,7 @@ public void pageReferesh()
         driver.navigate().to(url);
 
         wait=new WebDriverWait(driver,30);
-
+        // wait=new WebDriverWait(driver,30);
 
     }
 }
