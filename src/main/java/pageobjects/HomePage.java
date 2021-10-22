@@ -108,6 +108,7 @@ public void pageReferesh()
     public void navigatetoUrl(String url) {
         driver.navigate().to(url);
 
+        wait=new WebDriverWait(driver,30);
 
 
     }
