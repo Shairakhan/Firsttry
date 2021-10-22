@@ -32,7 +32,6 @@ public class BaseTest {
     public static void tearDown() throws InterruptedException {
 
        driver.quit();
-       driver.close();
 
     }
 
